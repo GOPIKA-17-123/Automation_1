@@ -1,12 +1,17 @@
 <!DOCTYPE suite SYSTEM
         "https://testng.org/testng-1.0.dtd">
-<suite name="LoginTestSuite">
+<suite name="AutomationSuite">
     <listeners>
         <listener class-name="listeners.TestListener"/>
     </listeners>
-    <test name="LoginTestTests">
+    <test name="AuthenticationModule">
         <classes>
             <class name="test.LoginTest"/>
+        </classes>
+    </test>
+    <test name="ProductModule">
+        <classes>
+            <class name="test.ProductTest"/>
         </classes>
     </test>
 </suite>
