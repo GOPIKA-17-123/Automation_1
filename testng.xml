@@ -14,4 +14,9 @@
             <class name="test.ProductTest"/>
         </classes>
     </test>
+    <test name="CartModule">
+        <classes>
+            <class name="test.CartTest"/>
+        </classes>
+    </test>
 </suite>
